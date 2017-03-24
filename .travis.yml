@@ -4,3 +4,5 @@ python:
 install:
   - pip install coveralls
 script: make
+after_success:
+  coveralls
